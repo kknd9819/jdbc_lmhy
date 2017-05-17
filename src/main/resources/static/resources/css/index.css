@@ -1,0 +1,104 @@
+﻿body
+{
+    font-family: 微软雅黑,新宋体;
+}
+a
+{
+    color: Black;
+    text-decoration: none;
+}
+.easyui-tree li
+{
+    margin: 5px 0px 0px 0px;
+    padding: 1px;
+}
+        
+#mainlogo
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 575px;
+    height: 72px;
+}
+#center
+{
+    padding-left: 575px;
+    padding-right: 425px;
+}
+#mainctrl
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 72px;
+    width: 425px;
+}
+        
+        
+.wel
+{
+    height: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: right;
+    padding-right: 5px;
+}
+.ctr
+{
+    vertical-align: middle;
+    margin-top: 5px;
+    height: 22px;
+    text-align: right;
+    float: right;
+}
+        
+.ctr li
+{
+    float: left;
+    list-style: none;
+}
+.zi
+{
+    /*在1.4版本中修改*/
+    background-image: url(../images/beijing.gif);
+    background-repeat: repeat-x;
+    padding-right: 6px;
+    padding-left: 3px;
+}
+        
+        
+a.v1:visited, a.v1:active, a.v1:link
+{
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+}
+a.v1:hover
+{
+    font-size: 14px;
+    color: #005500;
+    text-decoration: none;
+}
+
+.noscript
+{
+    position: absolute;
+    z-index: 100000; 
+    height: 2046px; 
+    top: 0px; 
+    left: 0px; 
+    width: 100%; 
+    background: white; 
+    text-align: center;
+}
+
+.maintop
+{
+    overflow: hidden; 
+    height: 60px; 
+    line-height: 20px; 
+    background-image: url(../images/top_bg.gif);
+    font-family: 微软雅黑,黑体
+}

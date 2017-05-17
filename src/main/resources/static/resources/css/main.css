@@ -1,0 +1,191 @@
+@charset "utf-8";
+
+/*
+ * Copyright 2005-2013 shopxx.net. All rights reserved.
+ * Support: http://www.shopxx.net
+ * License: http://www.shopxx.net/license
+ * 
+ * Style - Main
+ * Version: 3.0
+ */
+
+/* ---------- Main ---------- */
+.red{ font-family:Arial; color:#D72D2E;}
+table.main {
+	width: 100%;
+    height:100%;
+}
+
+table.main th {
+	height:60px;
+    background-color:#D72D2E;
+
+	}
+
+table.main td {
+	vertical-align: top;
+}
+
+table.main .logo {
+	width: 160px;
+	vertical-align: middle;
+}
+
+table.main .nav {
+	width: 800px;
+	height:60px;
+	float: left;
+	white-space: nowrap;
+	
+}
+
+table.main .nav li {
+	width: 70px;
+	height:60px;
+	float: left;
+	border-left: 1px solid #C92A2B;
+   
+}
+
+table.main .nav li a{height:20px;width:70px;display:block;font-size: 12px;color:#F7D5D5;text-align:center;outline:none;padding-top:40px;blr:expression(this.hideFocus = true);}
+
+table.main .nav li a:hover{width:70px;color:#FFF;background-color:#DD4C4D;padding-top:40px;}
+table.main li a.current {width:70px;color:#D72D2E;background-color:#F5F5F5;padding-top:40px;}
+
+
+
+table.main .nav li .nav1{background: url("../images/htop_ico.png") 7px -8px;color: #F7D5D5;}
+table.main .nav li .nav1:hover{background: url("../images/htop_ico.png") 7px -8px;color:#F7D5D5;background-color:#DD4C4D;width:70px;}
+table.main .nav li .nav1.current{background:url("../images/htop_ico.png") 3px -206px;width:70px;color:#D72D2E;background-color:#F5F5F5;}
+table.main .nav li .nav1.current:hover{background:url("../images/htop_ico.png") 3px -206px;width:70px;color:#D72D2E;background-color:#F5F5F5;}
+
+
+table.main .nav li .nav2{background: url("../images/htop_ico.png") -202px -8px;color: #F7D5D5;}
+table.main .nav li .nav2:hover{background: url("../images/htop_ico.png") -202px -8px;color:#F7D5D5;background-color:#DD4C4D;width:70px;}
+table.main .nav li .nav2.current{background:url("../images/htop_ico.png") -202px -205px;height:62px;width:70px;color:#D72D2E;background-color:#F5F5F5;padding-top:40px;}
+table.main .nav li .nav2.current:hover{background:url("../images/htop_ico.png") -202px -205px;width:70px;color:#D72D2E;background-color:#F5F5F5;}
+
+
+table.main .nav li .nav3{background: url("../images/htop_ico.png") -430px -6px;color:#F7D5D5;}
+table.main .nav li .nav3:hover{background: url("../images/htop_ico.png") -430px -6px;color:#F7D5D5;background-color:#DD4C4D;}
+table.main .nav li .nav3.current{background: url("../images/htop_ico.png") -430px -207px;color:#D72D2E;background-color:#F5F5F5;}
+table.main .nav li .nav3.current:hover{background: url("../images/htop_ico.png") -430px -207px;color:#D72D2E;background-color:#F5F5F5;}
+
+table.main .nav li .nav4{background: url("../images/htop_ico.png") -644px -15px;color:#F7D5D5;}
+table.main .nav li .nav4:hover{background: url("../images/htop_ico.png") -644px -15px;color:#F7D5D5;background-color:#DD4C4D;}
+table.main .nav li .nav4.current{background: url("../images/htop_ico.png") -650px -209px;color:#D72D2E;background-color:#F5F5F5;}
+table.main .nav li .nav4.current:hover{background: url("../images/htop_ico.png") -650px -209px;color:#D72D2E;background-color:#F5F5F5;}
+
+
+table.main .nav li .nav5{background: url("../images/htop_ico.png") -848px -15px;color:#F7D5D5;}
+table.main .nav li .nav5:hover{background: url("../images/htop_ico.png") -848px -15px;color:#F7D5D5;background-color:#DD4C4D;}
+table.main .nav li .nav5.current{background: url("../images/htop_ico.png") -848px -210px;color:#D72D2E;background-color:#F5F5F5;}
+table.main .nav li .nav5.current:hover{background: url("../images/htop_ico.png") -848px -210px;color:#D72D2E;background-color:#F5F5F5;}
+
+
+table.main .nav li .nav6{background: url("../images/htop_ico.png") -1052px -20px;color:#F7D5D5;}
+table.main .nav li .nav6:hover{background: url("../images/htop_ico.png") -1052px -20px;color:#F7D5D5;background-color:#DD4C4D;}
+table.main .nav li .nav6.current{background: url("../images/htop_ico.png") -1063px -206px;color:#D72D2E;background-color:#F5F5F5;}
+table.main .nav li .nav6.current:hover{background: url("../images/htop_ico.png") -1063px -206px;color:#D72D2E;background-color:#F5F5F5;}
+
+table.main .nav li .nav7{background:url("../images/head_topico.png") no-repeat 23px 13px;color:#F7D5D5;}
+table.main .nav li .nav7:hover{background:url("../images/head_topico.png") no-repeat 23px 13px;color:#F7D5D5;background-color:#DD4C4D;}
+table.main .nav li .nav7.current{background:url("../images/head_topico.png") no-repeat 25px -217px;color:#D72D2E;background-color:#F5F5F5;}
+table.main .nav li .nav7.current:hover{background:url("../images/head_topico.png") no-repeat 25px -217px ;color:#D72D2E;background-color:#F5F5F5;}
+
+table.main .nav li .nav8{background: url("../images/htop_ico.png") -1280px -20px;color:#F7D5D5;}
+table.main .nav li .nav8:hover{background: url("../images/htop_ico.png") -1280px -20px repeat-x;color:#F7D5D5;background-color:#DD4C4D;}
+table.main .nav li .nav8.current{background: url("../images/htop_ico.png") -1280px -206px;color:#D72D2E;background-color:#F5F5F5;}
+table.main .nav li .nav8.current:hover{background: url("../images/htop_ico.png") -1280px -206px;color:#D72D2E;background-color:#F5F5F5;}
+
+table.main .nav li .nav9{background:url("../images/head_topico.png") no-repeat  -329px 9px;color:#F7D5D5;}
+table.main .nav li .nav9:hover{background:url("../images/head_topico.png") no-repeat  -329px 9px;color:#F7D5D5;background-color:#DD4C4D;}
+table.main .nav li .nav9.current{background:url("../images/head_topico.png") no-repeat -329px -217px;color:#D72D2E;background-color:#F5F5F5;}
+table.main .nav li .nav9.current:hover{background:url("../images/head_topico.png") no-repeat -329px -217px ;color:#D72D2E;background-color:#F5F5F5;}
+
+table.main .nav li .nav10{background:url("../images/head_topico.png") no-repeat  -633px 9px;color:#F7D5D5;}
+table.main .nav li .nav10:hover{background:url("../images/head_topico.png") no-repeat  -633px 9px;color:#F7D5D5;background-color:#DD4C4D;}
+table.main .nav li .nav10.current{background:url("../images/head_topico.png") no-repeat -633px -217px;color:#D72D2E;background-color:#F5F5F5;}
+table.main .nav li .nav10.current:hover{background:url("../images/head_topico.png") no-repeat -633px -217px ;color:#D72D2E;background-color:#F5F5F5;} 
+
+table.main .link {
+	width: 150px;
+    padding-top:12px;
+	float: left;
+	clear: right;
+	text-align:left;
+	
+	white-space: nowrap;
+   padding-left:25px;
+   color:#fff;
+}
+table.main .link span{color:#fb5c5d;}
+table.main  strong{color:#fbff8c;font-size:14px;font-weight:bold;}
+table.main .link a {
+	padding: 0px 6px 0px 0px;
+	 color:#F7D5D5;
+}
+table.main .link a:hover {
+	color:#FFF;
+	
+}
+table.main .menu {
+	border-right: 1px solid #DEDEDE;
+	background-color: #F5F5F5;
+}
+
+table.main .menu dl {
+	display: none;
+}
+
+table.main .menu .default {
+	display: block;
+	width:178px;
+}
+
+table.main .menu dt {
+	height:40px;
+	line-height:40px;
+	font-weight: bold;
+	color: #444;
+	font-family:'microsoft yahei';
+	font-size:14px;
+	padding-left: 25px;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+table.main .menu dd a {
+	height: 32px;
+	line-height:32px;
+	display: block;
+	padding-left: 20px;
+	color: #000;
+	outline: none;
+	border-bottom: 1px solid #DEDEDE;
+	border-left:5px solid #DEDEDE;
+	blr: expression(this.hideFocus = true);
+	
+}
+
+table.main .menu dd a:hover {
+	background:#fff;
+
+}
+
+table.main .menu dd a.current {
+	height:35px;
+	line-height:35px;
+	background-color: #FFF;
+	border-left:5px solid #D72D2E;
+	color:#D72D2E;
+	font-weight:bold;
+ 
+	
+}
+
+table.main iframe {
+	width: 100%;
+	height: 100%;
+}
+
+.edit{ height:25px; background:url("../images/cz_ico.png ") no-repeat 0 0;}

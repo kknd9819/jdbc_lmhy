@@ -1,0 +1,35 @@
+.moreTable th {
+	line-height: 25px;
+	padding: 5px;
+	text-align:center;
+	font-weight: normal;
+	color: #333333;
+	background-color: #f8fbff;
+	border-bottom: 1px solid #E9E9E9;
+}
+
+.moreTable td {
+	line-height: 25px;
+	padding: 5px;
+	color: #666666;
+	border-bottom: 1px solid #E9E9E9;
+	text-align:center;
+}
+.moreTable td .red {color: #D72D2E;font-weight: bold;}
+
+
+/* 点击退款后，弹出的页面样式 */
+.pay_popup{width:400px;height:295px; border:12px solid #b2b2b2; border-radius:5px;margin:0 auto;    position: absolute;
+    top: 200px;
+    left: 500px;}
+.popup_in{width:400px;height:295px; position:relative;}
+.in_span{width:400px; background-color:#e1373a;height:30px; line-height:30px;color:#ffffff;font-size:12px;}
+.in_span span{margin-left:15px;}
+.in_close{ position:absolute;right:20px;  font-family: "microsoft yahei";font-weight:bold;}
+
+.popup_cont{width:398px;border-left:1px solid #908e8e;border-right:1px solid #908e8e;height:265px; background:#fff;}
+.cont_ul{padding-left:35px;padding-top:30px;}
+.cont_ul li{line-height:32px;}
+.pop_li{color:#268600;font-size:14px;font-weight:bold; margin-left:55px;}
+.popup_btn{margin-left:35px;padding-top:10px;}
+.other_way{color:#005aa0; text-decoration:underline;}
