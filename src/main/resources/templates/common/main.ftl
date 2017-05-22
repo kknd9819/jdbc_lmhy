@@ -23,7 +23,7 @@
 	<div data-options="region:'north',border:false" style="overflow: hidden; height: 30px;
         background: url(../../resources/images/layout-browser-hd-bg.gif) #7f99be repeat-x center 50%;
         line-height: 20px;color: #fff; font-family: Verdana, 微软雅黑,黑体">
-	 	<span style="float:right; padding-right:20px;padding-top: 3px;" class="head">欢迎 [@shiro.principal/] <a href="javascript:;" style="color:#fff" id="userset">账号设置</a> <a style="color:#fff" href="/system/logout/logout.jhtml" id="loginOut">安全退出</a></span>
+	 	<span style="float:right; padding-right:20px;padding-top: 3px;" class="head">欢迎 <@shiro.principal/> <a href="javascript:;" style="color:#fff" id="userset">账号设置</a> <a style="color:#fff" href="/system/logout/logout.jhtml" id="loginOut">安全退出</a></span>
         <span style="padding-left:10px; font-size: 16px; "><img src="../../resources/images/header_logo.png" width="170" height="30" align="absmiddle" /></span>
 	</div>
 	<div data-options="region:'west',split:true,title:'导航菜单'" style="width:180px;padding:0px;">
