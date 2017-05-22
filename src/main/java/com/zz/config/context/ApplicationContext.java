@@ -7,7 +7,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.jdbc.core.simple.SimpleJdbcCall;
-import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
 import java.sql.SQLException;
@@ -44,9 +43,9 @@ public class ApplicationContext {
     public DruidDataSource druidDataSource() throws SQLException {
         DruidDataSource druidDataSource = new DruidDataSource();
         druidDataSource.setDriverClassName("com.mysql.jdbc.Driver");
-        druidDataSource.setUrl("jdbc:mysql://localhost:3306/lmhy?useUnicode=true&characterEncoding=utf-8");
-        druidDataSource.setUsername("root");
-        druidDataSource.setPassword("Zheng1234");
+        druidDataSource.setUrl("jdbc:mysql://zz.mysqldb.chinacloudapi.cn:3306/lmhy?useUnicode=true&characterEncoding=utf-8");
+        druidDataSource.setUsername("zz@zz");
+        druidDataSource.setPassword("Moshoukknd1012.");
         druidDataSource.setInitialSize(10);
         druidDataSource.setMinIdle(10);
         druidDataSource.setMaxActive(100);
